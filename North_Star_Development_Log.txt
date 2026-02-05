@@ -137,6 +137,8 @@ BRANDING & UI
 BUILD HISTORY
 --------------------------------------------------
 
+(BUILDS WERE INTRODUCED STARTING WITH FINAL.ZIP) - - - (STRICTLY MEANING ALL PRIOR BUILDS WERE BEFORE V.1 (DECREASING CLUTTER))
+
 BUILD: north_star_final.zip
 - Core workflow complete
 - Roles, projects, chat, discovery implemented
