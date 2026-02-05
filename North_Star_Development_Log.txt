@@ -1,0 +1,180 @@
+NORTH STAR — DEVELOPMENT LOG
+================================
+
+This file tracks what exists in the app and what was introduced over time.
+Keep this file updated as the single source of truth for features and decisions.
+
+--------------------------------------------------
+PROJECT OVERVIEW
+--------------------------------------------------
+App Name: North Star
+Core Idea:
+A workflow-first collaboration app with optional discovery and matching.
+Projects are the center. Discovery is secondary and intentional.
+
+Core Principles:
+- Workflow before matching
+- Projects before people
+- Calm, intentional UI (no dark patterns)
+- Free by default, value-aligned monetization
+- Backend-ready architecture
+
+--------------------------------------------------
+CORE FEATURES (CURRENT STATE)
+--------------------------------------------------
+• Create Project flow
+• Project hubs (members, channels, tasks, settings)
+• Roles & permissions: Owner / Admin / Member
+• Project-only chat (no DMs)
+• Default channels (Main, Coding, Design, Marketing)
+• Custom channels (Star projects)
+• System messages (joins, leaves, role changes, task updates)
+• Project archive (read-only)
+• Leave project with ownership transfer guard
+• Local persistence (state survives app restarts)
+• Backend-ready AppState design
+
+--------------------------------------------------
+DISCOVERY & MATCHING
+--------------------------------------------------
+• Swipe-based discovery (Projects ↔ People)
+• Intent-based matching (no auto-matches)
+• Direct invites (friends / coworkers)
+• Invite notes
+• Selected-project invites
+• Lock / unlock project from discovery
+• Project visibility controls (what shows on swipe)
+• Profile visibility controls (what shows on swipe)
+• User intent mode (Looking / Building / Browsing)
+• Project stage (Idea / In Progress / Polishing / Maintenance)
+• Roles needed per project
+• “Why you’re seeing this” transparency
+
+--------------------------------------------------
+TASK SYSTEM
+--------------------------------------------------
+• Owners/Admins can create tasks
+• Tasks include:
+  - Title
+  - Description
+  - Due date
+  - Assignees
+• Tasks appear:
+  - In Main channel
+  - On Home dashboard
+  - In Project Tasks screen
+• Assignees can:
+  - Mark complete
+  - Add completion notes
+  - Attach files/images
+• Owners/Admins approve task completion
+
+--------------------------------------------------
+HOME DASHBOARD
+--------------------------------------------------
+• Elegant static North Star icon header
+• Current projects (tap → open chat)
+• Tasks assigned to you (light yellow cards)
+• Upgrade Membership entry point
+• Clean, actionable layout
+
+--------------------------------------------------
+MESSAGES
+--------------------------------------------------
+• Inbox (active chats, pending invites)
+• History (accepted/declined invites)
+• Project Interest screen (people interested in your projects)
+• Clean hierarchy, reduced clutter
+• Improved readability and spacing
+
+--------------------------------------------------
+PROFILE
+--------------------------------------------------
+• Editable profile
+• Skills
+• Tags
+• Availability
+• Past experience entries
+• Profile completeness indicator
+• Visibility controls
+• Star badge (if applicable)
+
+--------------------------------------------------
+MONETIZATION — STAR TIER
+--------------------------------------------------
+Star (Pro) Philosophy:
+Reward commitment, never punish free users.
+
+Star Projects:
+• ⭐ Star badge
+• Custom channels
+• Project branding hooks
+• Expanded role expectations
+• Project insights-lite
+• Priority discovery (clearly labeled)
+• Higher invite limits
+• Restore archived projects
+
+Star Individuals:
+• ⭐ Star badge (profile, swipe, chat)
+• Profile boost (transparent)
+• Advanced visibility controls
+• Priority invite inbox
+
+No ads. No pay-to-win. No pressure.
+
+--------------------------------------------------
+BRANDING & UI
+--------------------------------------------------
+• App name: North Star
+• Elegant North Star icon (custom mark)
+• Cinematic intro animation (black background, white star)
+• Calm, modern color palette (improved contrast)
+• Subtle brand presence (never loud)
+• iOS-safe spacing & touch targets
+
+--------------------------------------------------
+BUILD HISTORY
+--------------------------------------------------
+
+BUILD: north_star_final.zip
+- Core workflow complete
+- Roles, projects, chat, discovery implemented
+- Initial Star system introduced
+
+BUILD: north_star_updated.zip
+- Home dashboard added
+- Tasks system introduced
+- Pinned messages
+- UI polish pass
+
+BUILD: north_star_cinematic_tasks_history.zip
+- Cinematic intro animation
+- Task attachments
+- Messages declutter + History tab
+
+BUILD: north_star_updated_v2.zip
+- Projects tab limited to owned/member projects
+- Messages clarity improvements
+- Profile expanded (tags + experience)
+- Header branding cleanup
+
+BUILD: north_star_updated_v2_fixed*.zip
+- Bug fixes (JSX errors, state mismatches)
+- iOS touch target fixes
+- Visual refinements
+
+BUILD: north_star_updated_v2_fixed3.zip (CURRENT)
+- Elegant North Star icon redesign
+- Upgrade header layout fix
+- Home task cards highlighted
+- Safe-area back button fix
+
+--------------------------------------------------
+NOTES
+--------------------------------------------------
+• Backend (Firebase) not yet added
+• All systems are backend-ready
+• This log should be updated with each new build
+
+END OF FILE
